@@ -1,3 +1,7 @@
+## [0.8.1]
+
+- Add GeoJSON compliant toJson() and fromJson().
+
 ## [0.8.0]
 
 - Use pedantic.
