@@ -1,3 +1,5 @@
+This is a fork of https://github.com/MikeMitterer/dart-latlong. The goal is to keep it up to date with Dart language changes.
+
 ## LatLong provides a lightweight library for common latitude and longitude calculation.
 This library supports both, the "Haversine" and the "Vincenty" algorithm.
 
