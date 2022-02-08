@@ -33,7 +33,7 @@ class LatLng {
     if (_latitude < -90 || _latitude > 90) {
       throw ArgumentError.value(_latitude, '_latitude',
           'Latitude must be between -90 and 90 degrees');
-    } else if (_longitude < -180 || _longitude > 180) {
+    } else if (_longitude < -360 || _longitude > 360) {
       throw ArgumentError.value(_longitude, '_longitude',
           'Longitude must be between -180 and 180 degrees');
     }
@@ -50,7 +50,7 @@ class LatLng {
   double get latitude => _latitude;
 
   set longitude(final double value) {
-    if (value < -180 || value > 180) {
+    if (value < -360 || value > 360) {
       throw ArgumentError.value(
           value, 'value', 'Longitude must be between -180 and 180 degrees');
     }
